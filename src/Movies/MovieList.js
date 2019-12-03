@@ -30,7 +30,7 @@ class MovieList extends Component {
                 {this.props.movies.map((movies) =>
                 <>
                  <Grid item xs={4}>
-                <MediaCard key={movies._id} {...movies}/>
+                <Movie key={movies._id} {...movies}/>
                 </Grid>
                 </>
                 )}

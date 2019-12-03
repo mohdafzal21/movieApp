@@ -11,7 +11,6 @@ import ButtonAppBar from './ANavbar'
 function App() {
   return (
     <div className="App">
-      <ButtonAppBar/>
       <Switch>
       <Route exact path='/' component={MovieList}/>
       <Route path='/:id' component={MovieDetail} />

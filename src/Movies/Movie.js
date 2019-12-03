@@ -24,8 +24,7 @@ const Movie = (props)=>{
     return (
         <>
         <Link to={`${props._id}`}>
-        <Avatar alt="Remy Sharp" src={props.images.poster} className={classes.bigAvatar}/>
-        {/* <Poster src={props.images.poster}  />  */}
+        <Poster src={props.images.poster}  /> 
         </Link>
         </>
     )
